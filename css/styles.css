@@ -1,0 +1,140 @@
+ body{
+    /* background-color: #DEFCF9; */
+    text-align: center;
+    font-family: 'Merriweather', serif;
+    margin: 0;
+}
+
+h1{
+    font-size: 5.625rem;
+    margin: 50px auto 0 auto;
+    color: #3C84AB;
+    font-family: 'Sacramento', cursive;
+    line-height: 1;
+    
+}
+
+h2{
+    font-family: 'Montserrat', sans-serif;
+    font-size: 2.5rem;
+    font-weight: normal;
+    color: #3C84AB;
+    padding-bottom: 10px;
+}
+
+h3{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+
+p{
+    line-height: 2;
+}
+
+hr{
+    border: 8px dotted #a6abab;
+    border-bottom: none;
+    width: 6%;
+    margin: 75px auto;
+}
+.top-container{
+    
+    background-color: #DEFCF9;
+    padding-top: 100px;
+    /* position: relative; */
+
+}
+.middle-container{
+    background-color: white;
+    margin-top: 10px;
+
+}
+.bottom-container{
+    
+    margin-top: 50px;
+    background-color: #DEFCF9;
+    padding: 25px;
+
+}
+
+.pro{
+    text-decoration: underline;
+}
+
+.bottomCloud{
+    position: absolute;
+    left: 500px;
+    top: 300px; 
+}
+
+.topCloud{
+    position: absolute;
+    right: 500px;
+    top: 80px;
+
+}
+
+.skill-row{
+    width: 50%;
+    margin: auto;
+    text-align: left;
+    line-height: 2;
+}
+
+.programmingGif{
+   float: left;
+   height: 275px;
+   margin-left: -150px;
+   margin-top: -70px;
+   width: 275px;
+
+}
+
+.gamesGifs{
+    float: left;
+    height: 275px;
+    width: 275px; 
+    margin-top: -100px;
+    margin-left: -150px;
+    margin-bottom: -100px;
+
+}
+
+.skillsList
+{
+  columns: 2;
+  -webkit-columns: 2;
+  -moz-columns: 2;
+  padding-left: 20%;
+  padding-right: 20%;
+  margin-bottom: 50px;
+}
+
+.btn {
+    background: #009df2;
+    background-image: -webkit-linear-gradient(top, #009df2, #3C84AB);
+    background-image: -moz-linear-gradient(top, #009df2, #3C84AB);
+    background-image: -ms-linear-gradient(top, #009df2, #3C84AB);
+    background-image: -o-linear-gradient(top, #009df2, #3C84AB);
+    background-image: linear-gradient(to bottom, #009df2, #3C84AB);
+    -webkit-border-radius: 28;
+    -moz-border-radius: 28;
+    border-radius: 28px;
+    font-family: 'Montserrat', sans-serif;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 10px 20px 10px 20px;
+    text-decoration: none;
+    position: relative;
+    margin-top: 50px;
+  }
+  
+  .btn:hover {
+    background: #3cb0fd;
+    background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+    background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+    text-decoration: none;
+  }
