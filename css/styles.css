@@ -8,8 +8,8 @@
 h1{
     font-size: 5.625rem;
     margin: 50px auto 0 auto;
-    color: #3C84AB;
-    font-family: 'Sacramento', cursive;
+    color: #395B64;
+    font-family: 'Helvetica', sans-serif;
     line-height: 1;
     
 }
@@ -18,11 +18,15 @@ h2{
     font-family: 'Montserrat', sans-serif;
     font-size: 2.5rem;
     font-weight: normal;
-    color: #3C84AB;
+    color: #395B64;
     padding-bottom: 10px;
 }
 
 h3{
+    font-family: 'Montserrat', sans-serif;
+    padding-bottom: 10px;
+}
+h4{
     font-family: 'Montserrat', sans-serif;
     padding-bottom: 10px;
 }
@@ -57,10 +61,6 @@ hr{
 
 }
 
-.pro{
-    text-decoration: underline;
-}
-
 .bottomCloud{
     position: absolute;
     left: 500px;
@@ -90,6 +90,16 @@ hr{
 
 }
 
+.brainGif{
+    float: left;
+    height: 210px;
+    margin-left: -125px;
+    margin-right: 40px;
+    margin-top: -40px;
+    width: 210px;
+}
+
+
 .gamesGifs{
     float: left;
     height: 275px;
@@ -102,6 +112,7 @@ hr{
 
 .skillsList
 {
+
   columns: 2;
   -webkit-columns: 2;
   -moz-columns: 2;
